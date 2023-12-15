@@ -16,6 +16,11 @@ idf.py menuconfig
 idf.py flash
 ```
 
+Implementation example:
+
+![зображення](https://github.com/dania93/ST7789-with-ESP32/assets/41265108/9a37743b-029b-433e-b8f3-8a610e2e1559)
+
+
 __Note for ESP32-S2__   
 The tjpgd library is not included in the ESP32-S2 ROM because the ROM of the ESP32-S2 is small.   
 Therefore, JPEG files cannot be displayed.   
