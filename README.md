@@ -16,11 +16,6 @@ idf.py menuconfig
 idf.py flash
 ```
 
-Implementation example:
-
-![зображення](https://github.com/dania93/ST7789-with-ESP32/assets/41265108/9a37743b-029b-433e-b8f3-8a610e2e1559)
-
-
 __Note for ESP32-S2__   
 The tjpgd library is not included in the ESP32-S2 ROM because the ROM of the ESP32-S2 is small.   
 Therefore, JPEG files cannot be displayed.   
@@ -110,6 +105,13 @@ When you use SDSPI(SD Card via SPI), SDSPI uses SPI2_HOST BUS.
 When using this module at the same time as SDSPI or other SPI device using SPI2_HOST, it needs to be changed to SPI3_HOST.   
 When you don't use SDSPI, both SPI2_HOST and SPI3_HOST will work.   
 Previously it was called HSPI_HOST / VSPI_HOST, but now it is called SPI2_HOST / SPI3_HOST.   
+
+
+
+Implementation example:
+
+![зображення](https://github.com/dania93/ST7789-with-ESP32/assets/41265108/9a37743b-029b-433e-b8f3-8a610e2e1559)
+
 
 # Using Frame Buffer   
 ![config-frame-buffer](https://github.com/nopnop2002/esp-idf-st7789/assets/6020549/5fe48143-fa91-408e-b62a-be3f5c16bd37)
