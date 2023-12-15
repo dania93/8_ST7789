@@ -1,0 +1,28 @@
+{
+      "C_Cpp.default.compilerPath": "d:\\ESP32\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+      "idf.adapterTargetName": "esp32",
+      "files.associations": {
+            "st7789.h": "c",
+            "fontx.h": "c",
+            "esp_spiffs.h": "c",
+            "esp_vfs.h": "c",
+            "*.tcc": "cpp",
+            "fstream": "cpp",
+            "istream": "cpp",
+            "ostream": "cpp",
+            "sstream": "cpp",
+            "streambuf": "cpp",
+            "freertos.h": "c",
+            "string.h": "c",
+            "inttypes.h": "c",
+            "lcdfunc.h": "c",
+            "dirent.h": "c",
+            "tjpgd.h": "c",
+            "init_spiffs.h": "c"
+      },
+      "idf.portWin": "COM5",
+      "idf.flashType": "UART",
+      "idf.openOcdConfigs": [
+            "board/esp32-wrover-kit-3.3v.cfg"
+      ]
+}
